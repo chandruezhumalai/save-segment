@@ -1,0 +1,194 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 20px;
+}
+
+/* Main Button */
+.main-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.main-button:hover {
+  background-color: #0056b3;
+}
+
+/* Popup Overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Popup Container */
+.popup-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 700px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Popup Header */
+.popup-container h2 {
+  margin-top: 0;
+}
+
+/* Input Fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Schema Box with Border Only */
+
+.schema-box {
+  border: 2px solid #007bff; /* Blue border */
+  border-radius: 8px;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+  box-sizing: border-box; /* Ensures padding and border are included in the element's width and height */
+}
+
+
+/* Schema Row */
+.schema-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f1f9fc; /* Optional: Background color for each row */
+  border: 1px solid #b2d9e8;
+  border-radius: 5px;
+}
+
+/* Schema Select and Input in Schema Row */
+.schema-row select, 
+.schema-row input {
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Close Button */
+.close-button {
+  background: #ff6f6f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.close-button:hover {
+  background-color: #e04b4b;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+/* Schema Dropdown */
+.schema-dropdown {
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+/* Add Schema Button */
+.add-schema-button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-schema-button:hover {
+  background-color: #218838;
+}
+
+/* Add New Schema Text */
+.add-new-schema-text {
+  margin: 15px 0;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Footer Buttons */
+.footer-buttons {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+/* Save Button */
+.save-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.save-button:hover {
+  background-color: #0056b3;
+}
+
+/* Cancel Button */
+.cancel-button {
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.cancel-button:hover {
+  background-color: #c82333;
+}
